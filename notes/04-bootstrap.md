@@ -32,8 +32,23 @@ careful when using margins in bs can break the grid system, p for padding works 
 class rounded in bs affects img
 fw= font weight 
 fs= font size 1 largest 16 smallest
-p-md-5 for smaller screens to ignore
+=p-md-5 for smaller screens to ignore
 btn btn-success
-mdi icons uses classes
+=mdi icons uses classes
 i for icon mdi mdi-whatever
+columns dont use d-flex use text-center
 
+WIREFRAME
+Figma
+Play around to learn the site.
+Figma uses reg commands from OS
+svg for export designs ie icons, logos
+prototype- frame around to interact
+highlight "proto" replace with "file" in browser
+Add # if you bring in color number from figma
+img from unsplash, cope image address
+glass card css
+=elevation class gives box shadow
+=card class is bs rounded and shadow
+=object class for img adjustment
+class position works in bs
