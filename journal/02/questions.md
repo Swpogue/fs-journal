@@ -5,11 +5,11 @@
 
 02. What is the definition of a function?
 
-    > do something
+    >A subprogram to preform a task.
 
 03. What are the `SOLID` principles?
 
-    > | ANSWER HERE |
+    > S. Simply. O. open for extension
 
 04. Given this array: How could you remove the `pineapple`?
 

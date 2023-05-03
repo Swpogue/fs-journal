@@ -6,3 +6,10 @@ This reflection is open-format, so it can be whatever you like. Take this opport
 - What did you learn that was a shock or surprise?
 - What are you struggling with?
 - What would you count as a victory?
+
+Day 1
+I DONT KNOW ANYTHING!
+Day 2
+I understand what needs to happen but I don't know how to make it happen without a lot of research.
+Day 3
+Some concepts are sticking in my brain. Still have to research.
