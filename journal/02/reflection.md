@@ -13,3 +13,5 @@ Day 2
 I understand what needs to happen but I don't know how to make it happen without a lot of research.
 Day 3
 Some concepts are sticking in my brain. Still have to research.
+Followed better. If I have the syntax in front of me I can read what it does. But I cannot repeat it from memory.
+For loops are my friend!
