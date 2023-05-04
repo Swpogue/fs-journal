@@ -83,8 +83,11 @@ function findName(animalName){
 
 <!-- switch statement -->
 switch()
-case "":
-if()
+case "": +=       =  if()
+break;
+case "": -=
+break;
+default = ?
 
 sudo code to help explain what you want to do in js. Find name. 
 
@@ -100,3 +103,10 @@ function drawMilesHealth(){
 <!-- miles-health is drawn from an html ID -->
   document.getElementById('miles-health').textContent = `${heroHealth > 0 ? heroHealth : '☠️☠️☠️'}` author Jake Overall
 }
+
+
+Intervals work in ms.  setInterval(level, 2000)
+
+query selector can grab from html
+
+marquee behavior = "" direction= "" scrollamount = ""  multi behaviors to make object to move on screen
