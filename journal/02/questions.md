@@ -37,11 +37,14 @@
     }
     ```
 
-    > | ANSWER HERE |
+    > you.friends.push(them)
+    > them.friends.push(you)
 
 06. Give an example of a JavaScript `Conditional`:
-
-    > | ANSWER HERE |
+    >let js = hard
+    > if (js == hard) {
+    console.log("YES")
+    }
 
 07. What is the main difference between `parameters` and `arguments`?
 
@@ -57,4 +60,6 @@
 
 10. Demonstrate a loop that prints the numbers between -100 and 100?
 
-    > 
+    > for (let i = -100; i <= 100; i++) {
+   console.log(i);
+}
