@@ -6,3 +6,10 @@ This reflection is open-format, so it can be whatever you like. Take this opport
 - What did you learn that was a shock or surprise?
 - What are you struggling with?
 - What would you count as a victory?
+
+
+Day 1 
+Ego was high after passing my Check point. Then got smashed with the new week course work.
+I know nothing.
+Day 2
+Didn't understand the flow connections in mvc.
