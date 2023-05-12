@@ -46,3 +46,39 @@ appState.emit('banana') triggers listeners.
 key, value/ pairs
 
 ctrl . to set a method to the next level
+
+<!-- Getters and Setters -->
+Get= an additional property for a class and can access them with dot notation.
+
+
+<!-- ORDER OF THE STARTING CODE IN MVC -->
+
+STEP 1= 'MODEL'- add the blueprints. Export class{ constructor then this.data *n }
+
+STEP 2= 'AppState'- arrays  <import Model>
+
+STEP 3= 'Controller'- export class controller {constructor}  Register controller in app.js
+
+STEP 4= 'Service'- export const ??Service = new ??Service(); appState.on('something')
+
+Step 5= Build an html model to import to- MODEL with 'get ??template'{ return` div stuff `}
+
+Step 6= 'Controller' make a function _draw??() "declare method"
+
+Step 7= Set actives in controllers and call  setActive(??Id) ??Service.setActive(??Id)
+
+Step 8= appSate setActive /** @type {import('./Models/Car').Car|null} */
+  activeCar = null
+
+Step 9=Controller setActive(carId) {
+        let foundCar = appState.cars.find(c => c.id == carId)
+        console.log(foundCar);
+        appState.activeCar = foundCar
+    }
+
+Step 10= make template in model = get Active??Template(){return` div stuff` }
+
+
+
+
+

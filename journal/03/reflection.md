@@ -13,3 +13,8 @@ Ego was high after passing my Check point. Then got smashed with the new week co
 I know nothing.
 Day 2
 Didn't understand the flow connections in mvc.
+Day 3 
+Little more sunk in to the brain.  Still getting the terms mixed up and where flow direction is supposed to be.
+Need to watch videos.
+Day 4
+Not any easier. Still having hard time knowing what to use to make a thing happen...
