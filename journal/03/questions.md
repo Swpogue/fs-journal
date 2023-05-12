@@ -9,7 +9,7 @@
 
 03. What is Encapsulation?
   
-  > Keeps code from being viewed or manipulated by user.
+  > Grouping of like concerns. Control flow. 
 
 04. What are some of the benefits of the `Proxy` object that we are using in our structure for applications?
   
