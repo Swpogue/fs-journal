@@ -12,3 +12,7 @@ Day 1
 Easier stuff to learn today. I grasp it after that long weekend!!
 
 Day 2 
+Better
+
+Day 3 
+Got lost a little.

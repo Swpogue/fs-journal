@@ -1,11 +1,11 @@
 # Understanding Asynchronous Code, and API's
 01. What is the difference between `asynchronous` code and `synchronous` code?
 
-  > | ANSWER HERE |
+  > Async works between servers.  synch is local and works at the same time.
 
 02. What is an event listener?
 
-  > | ANSWER HERE |
+  > listens for changes.
 
 03. What does *REST* stand for, and in simple terms what does it mean??
 

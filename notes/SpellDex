@@ -100,10 +100,111 @@ cont res = await sandboxApi.put('api/spells/' + id, spell)
 log res.data
 
 
-data.sprites.front_shiny
+data.url.sprites.front_shiny
+
+// APOD
+
+ENV
+Axios 
+Add params: {api_key:  sdlgjorirg}
+Nasa Controller export class, 
+
+Router  [HomeController, NasaController]
 
 
+Controller  =contructor
+getApod
+try await nasaService.getApod
+catch
+this.getApod()
 
+NasaService
+class NasaService  Export const nasaSevice = new NasaService
+
+async getApod
+const res = await nasaApi.get()
+log                               gets the api info
+
+Model NasaPic
+export class NasaPic
+constructor {
+this.date = data.date
+this.description = data.explanation
+this.image = data.url
+}
+
+appstate nasaPic = null
+
+build html spot to build model
+
+function drawPic
+const pic = Appstate.nasaPic
+document.body.style.background = `url(${pic.image})`
+
+add a template to model
+
+input type='date' on html name= 'date' id='something' onchange="app.NasaController.selectDate"
+
+NasaController 
+async SelectDate
+const res = await nasaApi("?date=")
+let dateElem = doc.getElemid('date')
+
+service
+asynch seletdate(date)
+const res = await nasaApi.get (`?date=${date})
+
+add new controller and service add to router
+
+Controller
+constructor
+
+asynch favoritePicture
+try 
+let favoriteData = appstate.nasaPic
+await service.favPic
+catch
+
+service
+asynch favPic(favData)
+const res =await api.post()
+appstate.favpic = res.data
+push
+appstate.emit
+
+onclick=sandboxController.favPic button role button for add fav add to the html
+
+add SandboxPicture for saving pictures in model
+export class SandboxPicture(data){
+constructor
+dat
+imgurl
+id
+creator
+}
+
+add appstate 
+sandboxPictures []
+
+Sand Service
+emit
+
+async get favpic
+cont res = await api.get (api/apods)
+
+get off canvas
+fav pic is id
+
+draw favorites function
+let template'
+appstate.sanbox.Pic.foreach (p => template +=  p.favtemp)
+setHTML(favpics, template)
+
+appsate.on 
+
+add remove favoritePicture
+res await api.delete (api/apods/id)
+filter deletes
 
 
 
