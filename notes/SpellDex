@@ -1,0 +1,127 @@
+env.js Add keys
+add controller
+add router
+add axios info for api's //Change All api TO sandboxApi!!\\
+add api get
+add service api res.data
+add log to service looking for data type 
+
+add template to controller quick one for drawSpellDex   role= button 
+
+setActive in controller and service
+
+make model array from dnd and sandbox - compare the data types ie. 'description vs desc'
+
+
+Adapter pattern for sandbox from dnd api data
+join description = dat.desc?.join('<br/>') || data.description || ''
+damage = damage || 0 - to show if there is not damage
+level = data.level || 1
+ritual = data ritual || false
+range = data.range || '' empty sting if the spell doesn't have a range property.
+components = data.components || [] because it is an array.
+castingTime = data.castingTime  || data.casting_time || ''
+prepared = data.prepared
+
+ build get activeSpellCard() in active controller
+ html 
+
+ go to service add appstate.activespell =new appstate.activespell( res.data)
+
+ add activeSpell = null in appstate
+
+ controller function draw activeSpell sethtml activeSpell? in case of null
+
+ activespellcontroller 
+ get spellbook button 
+ if !appstate.account 
+ add spell book button add a login function to button
+ return add spellbook onclick userspellsController.addspell() active spell is the only spell that can be added. don't need to pass thru
+
+ add userspellsController export class add to app.js
+ constructor
+ appstate.on (account this.getuserspells) to auth user to sandboxapi
+ add userSpellsService.js
+ class
+ addspell()
+ const res = sandboxapi.post('api/spells')
+ export
+ 
+ async userSpellsService  add spell() in controller
+
+ userspellsController
+ async userSpells 
+ try 
+ 
+ catch
+
+ userSpellsService
+get userspells
+const res await sandboxapi.get
+
+appstate.userspells = res.data.map(s => new Spell(s))
+
+add userspells to appstate = []
+appstate.on('userspells' drawUserSpells)
+
+
+make draw function for drawUserSpells in controller
+let template
+
+
+
+add in userspellsController
+
+get userspelltemplate()
+return
+<div> check checked
+ <span>📦</span> ${this.name}
+</div>
+
+onchange= app.userSpellsController.togglePrepared('this.id')  onchange for checkboxes for less headache
+
+add function togglePrepared in controller
+async togglePrepared(id)
+try 
+userSpellsService.toggleSpell(id)
+catch
+
+time for edit
+
+userSpellsService
+
+toggleSpell(id)
+cont spell = AppSteate.userSpells.find(s=> s.id == id)
+
+
+spell.prepared = !spell.prepared
+
+cont res = await sandboxApi.put('api/spells/' + id, spell)
+log res.data
+
+
+data.sprites.front_shiny
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

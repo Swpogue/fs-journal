@@ -52,29 +52,33 @@ Get= an additional property for a class and can access them with dot notation.
 
 
 <!-- ORDER OF THE STARTING CODE IN MVC -->
+STEP 1= 'Controller'- export class controller {constructor}  Register controller in app.js
 
-STEP 1= 'MODEL'- add the blueprints. Export class{ constructor then this.data *n }
+Step 2= router
 
-STEP 2= 'AppState'- arrays  <import Model>
+Step 3= Get api data from an open api 
 
-STEP 3= 'Controller'- export class controller {constructor}  Register controller in app.js
+STEP 4= 'Service'- export const ??Service = new ??Service(); appState.on('something')  log is important!!!
 
-STEP 4= 'Service'- export const ??Service = new ??Service(); appState.on('something')
+STEP 5= 'MODEL'- add the blueprints. Export class{ constructor then this.data *n }
 
-Step 5= Build an html model to import to- MODEL with 'get ??template'{ return` div stuff `}
+STEP 6= 'AppState'- arrays  <import Model>
 
-Step 6= 'Controller' make a function _draw??() "declare method"
 
-Step 7= Set actives in controllers and call  setActive(??Id) ??Service.setActive(??Id)
+Step 7= Build an html model to import to- MODEL with 'get ??template'{ return` div stuff `}
 
-Step 8= appSate setActive /** @type {import('./Models/Car').Car|null} */
+Step 8= 'Controller' make a function _draw??() "declare method"
+
+Step 9= Set actives in controllers and call  setActive(??Id) ??Service.setActive(??Id)
+
+Step 10= appSate setActive /** @type {import('./Models/Car').Car|null} */
   activeCar = null
 
-Step 9=Controller setActive(carId) {
+Step 11=Controller setActive(carId) {
         let foundCar = appState.cars.find(c => c.id == carId)
         console.log(foundCar);
         appState.activeCar = foundCar
     }
 
-Step 10= make template in model = get Active??Template(){return` div stuff` }
+Step 12= make template in model = get Active??Template(){return` div stuff` }
 
