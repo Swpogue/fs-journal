@@ -15,4 +15,7 @@ Day 2
 Better
 
 Day 3 
-Got lost a little.
+Got lost a little. Pokedex is hard.
+
+Day 4
+I could follow better again. The 2 api's working together still confuses me a little.
