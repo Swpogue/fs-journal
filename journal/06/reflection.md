@@ -6,3 +6,9 @@ This reflection is open-format, so it can be whatever you like. Take this opport
 - What did you learn that was a shock or surprise?
 - What are you struggling with?
 - What would you count as a victory?
+
+Day 1
+holiday
+
+Day 2
+Learning Vue. I like the ease of use. Just need to learn the syntax.

@@ -5,7 +5,7 @@
 
 02. What is the difference between a vue `component` and `page`?
 
-  > | ANSWER HERE |
+  > Page i s what is shown on the html browser. Component is data used to populate the page.
 
 03. What is ***Component-Based Architecture***?
 
@@ -13,11 +13,11 @@
 
 04. What are the three tags that make up a Vue component?
 
-  > | ANSWER HERE |
+  > Template, Script, Style
 
 05. What are ***lifecycle hooks***? What are lifecycle hooks used for?
 
-  > | ANSWER HERE |
+  > lifecycle hook - onMounted= run code as soon as page mounts or renders.
 
 06. Which component in Vue does the vue-router use to mount pages onto?
 
