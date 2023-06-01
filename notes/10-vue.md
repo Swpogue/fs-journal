@@ -138,3 +138,18 @@ profile computed active profile
 getProjectsByProfile()
 params:
 creatorId: id
+
+
+>some api's dont give ids use =  [v-for="b, index in banana" :key="index"]
+ 
+ appState create--> previousUrl and nextUrl build computed for each
+
+button= previous
+@click="changePage(previousUrl)" button= previous
+@click="changePage(nextUrl)" button= next
+
+return
+async changPage()
+
+service
+
