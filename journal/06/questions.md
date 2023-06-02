@@ -37,6 +37,4 @@
 
 10. What is the Vue method used to create watchable objects such as `state` or `AppState`?
 
-  >watchEffect(() => {
-      editable.value = { ...AppState.account }
-    })
+  >computed
