@@ -12,3 +12,12 @@ holiday
 
 Day 2
 Learning Vue. I like the ease of use. Just need to learn the syntax.
+
+Day 3
+Much easier to build out html
+
+Day 4
+I get it but the syntax is something ill need to ref
+
+Day 5
+Going strong. Hopefully ill have extra time this weekend.
