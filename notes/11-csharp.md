@@ -108,7 +108,7 @@ public class CatsController : ControllerBase
 > public ActionResults<List<Cat>> GetAllCats()
 {
   try{
-    List<Cat> cats = catsService.GetAllCats  // go to service to get cats
+    List<Cat> cats = _catsService.GetAllCats  // go to service to get cats
     return Ok(cats);
   }
   Catch(Exception e)
@@ -162,5 +162,23 @@ public class CatsRepo()
     this.dbCats = 
   }
 
+  internal List<Cars> GetAllCars()
+  {
+    string sql = "SELECT * FROM cars;";
+    List<Car> cars = _db.Query<Car>(sql).ToList();
+    return cars;
+  }
+
 }
+
+
+<Make Model, Controller, Service, Repository.
+
+<Make readonly Controller, Service and Repository
+<Setup.cs Services
+
+<Repository add db
+
+
+
 
