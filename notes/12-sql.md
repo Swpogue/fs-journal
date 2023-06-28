@@ -31,3 +31,16 @@ WHERE id = 4; <changes only the id 4
 
 <DELETE FROM penguins WHERE id = 3; deletes the id 3
 
+ENV  APP SETTINGS.JSON
+DB SETUP
+
+Foreign Key (creatorId) REFERENCES accounts(id) ON DELETE CASCADE <Constraint 
+
+<JOIN TABLES
+
+SELECT title, 
+name 
+FROM albums 
+JOIN account ON creatorId = albums.creator.id;
+
+
