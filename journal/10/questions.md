@@ -14,7 +14,7 @@
 05. In the Car example what is the access modifier of the `Start()` method?
 
   ```c#
-  [HTTPPUT]
+  [HttpPUT]
   abstract class Car
   {
     public string Start()
@@ -42,7 +42,12 @@
 
 09. Demonstrate the necessary SQL for creating a table called `characters` with the values `name, age, description` as strings, and an `int` id.
 
-  > | ANSWER HERE |
+  > CREATE TABLE characters(
+    id INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(200) NOT NULL,
+    age INT NOT NULL,
+    description VARCHAR(500) NOT NULL
+  ) default charset utf8 COMMENT '';
 
 10. In SQL how can you query more than a single table? Provide an example.
 
