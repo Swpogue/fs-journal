@@ -43,4 +43,13 @@ name
 FROM albums 
 JOIN account ON creatorId = albums.creator.id;
 
+add privateReadOnly Auth0provider to controller
+
+<create album
+async needs Task added to the Action
+Account userInfo = await _auth0.GetUserInfo<Account>(HttpContext);
+albumData.CreatorId = userInfo.Id;
+
+
+
 
