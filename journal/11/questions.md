@@ -13,11 +13,11 @@
 
 4. What is the difference between a `PRIMARY KEY` and a `FOREIGN KEY`
 
-  > | ANSWER HERE |
+  > PRIMARY KEY has the db take care of adding an Id. FOREIGN KEY references a different table.
 
 5. What is an ***alias***?
 
-  > | ANSWER HERE |
+  > Allow you to use a different word and still access an object.
 
 6. Demonstrate how you would query a join statement that would get all of a doctors patients from the following collections:
 
@@ -47,4 +47,7 @@
 
   ```
 
-  > | ANSWER HERE |
+  >SELECT *
+  FROM doctors
+  JOIN patients ON doctors.id = patients.doctor_id;
+
