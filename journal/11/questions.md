@@ -1,15 +1,15 @@
 # A bit more CSharp and SQL
 1. What does ***inheritance*** accomplish for us in C#?
 
-  > | ANSWER HERE |
+  > Inheritance is used to create new classes that reuse, extend, and modify the behavior defined in other classes.
 
 2. How does ***member inheritance*** work in C#? Does a `Class` inherit all members of the base `Class`?
 
-  > | ANSWER HERE |
+  >  The class which inherits the members of another class is called derived class and the class whose members are inherited is called base class. No. They must declare their own constructors.
 
 3. How does ***accessibility*** affect inheritance?
 
-  > | ANSWER HERE |
+  > Depends on the member’s visibility. Public or private.
 
 4. What is the difference between a `PRIMARY KEY` and a `FOREIGN KEY`
 
@@ -47,7 +47,5 @@
 
   ```
 
-  >SELECT *
-  FROM doctors
-  JOIN patients ON doctors.id = patients.doctor_id;
+  >SELECT * FROM doctors JOIN patients ON doctors.id = patients.doctor_id;
 
