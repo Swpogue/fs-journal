@@ -47,5 +47,5 @@
 
   ```
 
-  >SELECT * FROM doctors JOIN patients ON doctors.id = patients.doctor_id;
+  >SELECT * FROM doctors JOIN patients ON doctors.id = patients_doctor.id;
 
